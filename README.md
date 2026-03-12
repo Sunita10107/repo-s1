@@ -5,3 +5,4 @@ dot set up
 SP-387
 SP-388
 SP-389
+Closing two cards for one jenkins build, cards are SP-13 and SP-27
