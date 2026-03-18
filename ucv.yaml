@@ -1,10 +1,8 @@
-version: 2.1.4
+version: "2.1.5"
 integrations:
-- type: ucv-ext-launch
-attributes:
-auto-config: true
-configs:
-name: Launch Integration
-baseUrl: https://10.134.119.192:8443
-deployToken: 860f4957-9fd8-41c6-bb10-a1192561c7aa
-loggingLevel: DEBUG
+  - name: "Launch Integration"
+    type: "ucv-ext-launch"
+    baseUrl: "https://10.134.119.192:8443"
+    deployToken: "860f4957-9fd8-41c6-bb10-a1192561c7aa"
+    auto-config: true
+    loggingLevel: "DEBUG"
